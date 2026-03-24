@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  /* Default text-xs is 12px (0.75rem), +3px = 15px (0.9375rem) */
+  --text-xs: 0.9375rem;
+  
+  /* Default text-sm is 14px (0.875rem), +3px = 17px (1.0625rem) */
+  --text-sm: 1.0625rem;
+  
+  /* Default text-base is 16px (1rem), +3px = 19px (1.1875rem) */
+  --text-base: 1.1875rem;
+  
+  /* Default text-lg is 18px (1.125rem), +3px = 21px (1.3125rem) */
+  --text-lg: 1.3125rem;
+  
+  /* Default text-xl is 20px (1.25rem), +3px = 23px (1.4375rem) */
+  --text-xl: 1.4375rem;
+  
+  /* Default text-2xl is 24px (1.5rem), +3px = 27px (1.6875rem) */
+  --text-2xl: 1.6875rem;
+  
+  /* Default text-3xl is 30px (1.875rem), +3px = 33px (2.0625rem) */
+  --text-3xl: 2.0625rem;
+}
+
+body {
+  font-size: 19px; /* Base 16px + 3px */
+}
